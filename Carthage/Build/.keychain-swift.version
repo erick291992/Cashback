@@ -1,0 +1,9 @@
+{
+  "commitish" : "13.0.0",
+  "iOS" : [
+    {
+      "name" : "KeychainSwift",
+      "hash" : "e87881d87a9e27bbb1fca78c4c53abadd96db0b9c5bf0c7ed873a0e3b041cb60"
+    }
+  ]
+}

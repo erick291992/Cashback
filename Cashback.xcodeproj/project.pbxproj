@@ -12,6 +12,22 @@
 		CD36B20521EBC1B900C9D30F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD36B20321EBC1B900C9D30F /* Main.storyboard */; };
 		CD36B20721EBC1BB00C9D30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD36B20621EBC1BB00C9D30F /* Assets.xcassets */; };
 		CD36B20A21EBC1BB00C9D30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD36B20821EBC1BB00C9D30F /* LaunchScreen.storyboard */; };
+		CD36B21321EBCA6500C9D30F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B21221EBCA6500C9D30F /* LoginViewController.swift */; };
+		CD36B21921EBD62E00C9D30F /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD36B21821EBD62E00C9D30F /* IQKeyboardManager.framework */; };
+		CD36B21B21EBD63900C9D30F /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD36B21A21EBD63900C9D30F /* KeychainSwift.framework */; };
+		CD36B21D21EBD64000C9D30F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD36B21C21EBD64000C9D30F /* Alamofire.framework */; };
+		CD36B21F21EBD69C00C9D30F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B21E21EBD69C00C9D30F /* NetworkService.swift */; };
+		CD36B22121EBD6F200C9D30F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B22021EBD6F200C9D30F /* Constants.swift */; };
+		CD36B22321EBD7EB00C9D30F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B22221EBD7EB00C9D30F /* UserService.swift */; };
+		CD36B22621EBD89A00C9D30F /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B22521EBD89A00C9D30F /* TokenManager.swift */; };
+		CD36B22921EBDD7F00C9D30F /* LoginViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B22821EBDD7F00C9D30F /* LoginViewControllerViewModel.swift */; };
+		CD36B22C21EBEB1000C9D30F /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B22B21EBEB1000C9D30F /* Bindable.swift */; };
+		CD36B23021EC003B00C9D30F /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD36B22F21EC003B00C9D30F /* IQKeyboardManagerSwift.framework */; };
+		CD36B23221EC088A00C9D30F /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B23121EC088A00C9D30F /* ExploreViewController.swift */; };
+		CD36B23421EC10BB00C9D30F /* ExploreViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B23321EC10BB00C9D30F /* ExploreViewControllerViewModel.swift */; };
+		CD36B23621EC113D00C9D30F /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B23521EC113D00C9D30F /* ExploreService.swift */; };
+		CD36B23821EC139F00C9D30F /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B23721EC139F00C9D30F /* Venue.swift */; };
+		CD36B23B21EC2DAD00C9D30F /* ViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B23A21EC2DAD00C9D30F /* ViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,23 @@
 		CD36B20621EBC1BB00C9D30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD36B20921EBC1BB00C9D30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD36B20B21EBC1BB00C9D30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD36B21221EBCA6500C9D30F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD36B21821EBD62E00C9D30F /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
+		CD36B21A21EBD63900C9D30F /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		CD36B21C21EBD64000C9D30F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		CD36B21E21EBD69C00C9D30F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CD36B22021EBD6F200C9D30F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD36B22221EBD7EB00C9D30F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		CD36B22521EBD89A00C9D30F /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		CD36B22821EBDD7F00C9D30F /* LoginViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViewModel.swift; sourceTree = "<group>"; };
+		CD36B22B21EBEB1000C9D30F /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		CD36B22D21EC002D00C9D30F /* KeychainSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = KeychainSwift.framework.dSYM; path = Carthage/Build/iOS/KeychainSwift.framework.dSYM; sourceTree = "<group>"; };
+		CD36B22F21EC003B00C9D30F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		CD36B23121EC088A00C9D30F /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CD36B23321EC10BB00C9D30F /* ExploreViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewControllerViewModel.swift; sourceTree = "<group>"; };
+		CD36B23521EC113D00C9D30F /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		CD36B23721EC139F00C9D30F /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		CD36B23A21EC2DAD00C9D30F /* ViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD36B23021EC003B00C9D30F /* IQKeyboardManagerSwift.framework in Frameworks */,
+				CD36B21921EBD62E00C9D30F /* IQKeyboardManager.framework in Frameworks */,
+				CD36B21B21EBD63900C9D30F /* KeychainSwift.framework in Frameworks */,
+				CD36B21D21EBD64000C9D30F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,7 @@
 			children = (
 				CD36B1FE21EBC1B900C9D30F /* Cashback */,
 				CD36B1FD21EBC1B900C9D30F /* Products */,
+				CD36B21721EBD62E00C9D30F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,94 @@
 		CD36B1FE21EBC1B900C9D30F /* Cashback */ = {
 			isa = PBXGroup;
 			children = (
+				CD36B23921EC2D9400C9D30F /* Extensions */,
+				CD36B22A21EBEAFB00C9D30F /* Helpers */,
+				CD36B22721EBDD5400C9D30F /* ViewModel */,
+				CD36B22421EBD88300C9D30F /* Manager */,
+				CD36B21521EBCAE000C9D30F /* Model */,
+				CD36B21421EBCACE00C9D30F /* Service */,
+				CD36B21121EBC9E600C9D30F /* Controller */,
 				CD36B1FF21EBC1B900C9D30F /* AppDelegate.swift */,
 				CD36B20121EBC1B900C9D30F /* ViewController.swift */,
 				CD36B20321EBC1B900C9D30F /* Main.storyboard */,
 				CD36B20621EBC1BB00C9D30F /* Assets.xcassets */,
 				CD36B20821EBC1BB00C9D30F /* LaunchScreen.storyboard */,
 				CD36B20B21EBC1BB00C9D30F /* Info.plist */,
+				CD36B22021EBD6F200C9D30F /* Constants.swift */,
 			);
 			path = Cashback;
+			sourceTree = "<group>";
+		};
+		CD36B21121EBC9E600C9D30F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B21221EBCA6500C9D30F /* LoginViewController.swift */,
+				CD36B23121EC088A00C9D30F /* ExploreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD36B21421EBCACE00C9D30F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B21E21EBD69C00C9D30F /* NetworkService.swift */,
+				CD36B22221EBD7EB00C9D30F /* UserService.swift */,
+				CD36B23521EC113D00C9D30F /* ExploreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD36B21521EBCAE000C9D30F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B23721EC139F00C9D30F /* Venue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD36B21721EBD62E00C9D30F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B22F21EC003B00C9D30F /* IQKeyboardManagerSwift.framework */,
+				CD36B22D21EC002D00C9D30F /* KeychainSwift.framework.dSYM */,
+				CD36B21C21EBD64000C9D30F /* Alamofire.framework */,
+				CD36B21A21EBD63900C9D30F /* KeychainSwift.framework */,
+				CD36B21821EBD62E00C9D30F /* IQKeyboardManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD36B22421EBD88300C9D30F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B22521EBD89A00C9D30F /* TokenManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CD36B22721EBDD5400C9D30F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B22821EBDD7F00C9D30F /* LoginViewControllerViewModel.swift */,
+				CD36B23321EC10BB00C9D30F /* ExploreViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD36B22A21EBEAFB00C9D30F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B22B21EBEB1000C9D30F /* Bindable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CD36B23921EC2D9400C9D30F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD36B23A21EC2DAD00C9D30F /* ViewController+Alert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +192,7 @@
 				CD36B1F821EBC1B900C9D30F /* Sources */,
 				CD36B1F921EBC1B900C9D30F /* Frameworks */,
 				CD36B1FA21EBC1B900C9D30F /* Resources */,
+				CD36B21621EBD3EB00C9D30F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,13 +249,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD36B21621EBD3EB00C9D30F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManager.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD36B1F821EBC1B900C9D30F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD36B22121EBD6F200C9D30F /* Constants.swift in Sources */,
+				CD36B21321EBCA6500C9D30F /* LoginViewController.swift in Sources */,
+				CD36B23221EC088A00C9D30F /* ExploreViewController.swift in Sources */,
+				CD36B22321EBD7EB00C9D30F /* UserService.swift in Sources */,
 				CD36B20221EBC1B900C9D30F /* ViewController.swift in Sources */,
+				CD36B21F21EBD69C00C9D30F /* NetworkService.swift in Sources */,
+				CD36B22921EBDD7F00C9D30F /* LoginViewControllerViewModel.swift in Sources */,
+				CD36B23621EC113D00C9D30F /* ExploreService.swift in Sources */,
 				CD36B20021EBC1B900C9D30F /* AppDelegate.swift in Sources */,
+				CD36B22621EBD89A00C9D30F /* TokenManager.swift in Sources */,
+				CD36B23421EC10BB00C9D30F /* ExploreViewControllerViewModel.swift in Sources */,
+				CD36B23B21EC2DAD00C9D30F /* ViewController+Alert.swift in Sources */,
+				CD36B23821EC139F00C9D30F /* Venue.swift in Sources */,
+				CD36B22C21EBEB1000C9D30F /* Bindable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +438,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MW4M35RV6Z;
+				DEVELOPMENT_TEAM = 8R3688592C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cashback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homeapps.Cashback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homeatapps.Cashback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,16 +460,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MW4M35RV6Z;
+				DEVELOPMENT_TEAM = 8R3688592C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cashback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homeapps.Cashback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homeatapps.Cashback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
