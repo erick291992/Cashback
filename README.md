@@ -38,3 +38,7 @@ CocoaPods takes controls of entire Xcode project and if something fails entire p
 7. Building libraries and frameworks that support CocoaPods became such a pain for iOS developers who are not skilled in Ruby. 9. The developer needs to write .podspec file and follow many unrelated Ruby conventions.
 10. Centralised
 11. Can’t work with framework and project at the same time because of the two-step process for working on dependencies.
+
+
+# link to source of pros and cons
+https://medium.com/xcblog/carthage-or-cocoapods-that-is-the-question-1074edaafbcb
